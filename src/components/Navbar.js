@@ -18,11 +18,11 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="flex py-9 px-5 my-3 lg:w-3/4 mx-auto md:justify-between flex-col md:flex-row justify-center items-center">
+      <div className="flex py-9 px-5 my-3 lg:w-3/4 mx-auto md:justify-between flex-col gap-5 md:flex-row justify-center items-center">
         <div className="logo lg:text-3xl text-2xl font-bold">
           <Link href="/">coding4climate</Link>
         </div>
-        <ul className='flex lg:gap-8 gap-3 items-center text-xl'>
+        <ul className='flex lg:gap-8 gap-4 items-center md:text-xl text-lg'>
           <li className="hover:opacity-85 transition-all mt-2">
             <button onClick={toggleDarkMode}>
               <Image
@@ -36,7 +36,7 @@ const Navbar = () => {
             </button>
           </li>
           <li className='hover:font-semibold'><Link className="transition-all" href="/">Home</Link></li>
-          <li className='hover:font-semibold'><Link className="transition-all" href="/">Topic1</Link></li>
+          <li className='hover:font-semibold'><Link className="transition-all" href="/ProblemsAndSolutions">Problems & Solutions</Link></li>
           <li className='hover:font-semibold'><Link className="transition-all" href="/about">About</Link></li>
         </ul>
       </div>

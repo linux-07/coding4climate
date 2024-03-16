@@ -17,7 +17,7 @@ export default function Home() {
             <br />
             Explore curated problems and solutions below.
             <br />
-            Together, let's make a greener, healthier world!
+            Together, let&apos;s make a greener, healthier world!
             <br />
             #coding4climate
           </p>

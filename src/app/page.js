@@ -8,7 +8,7 @@ export default function Home() {
       <div className="container mx-1 md:mx-0">
         <div className="h-[75vh] w-[100vw] mx-auto flex justify-center items-center flex-col">
           <h1 className="text-4xl md:text-7xl text-center w-full font-bold">
-            Let's solve environmental issues
+            Let&apos;s solve environmental issues
           </h1>
           <p className="md:text-lg text-sm text-center w-full text-gray-600 mt-8 ">
             Welcome to our platform dedicated to solving environmental challenges!

@@ -15,6 +15,7 @@ const Footer = () => {
                 src="/assets/github-mark-white.svg"
                 width={25}
                 height={25}
+                alt="Github Icon"
                 className="hover:opacity-75 transition-all invert dark:invert-0"
               />
             </Link>

@@ -1,5 +1,6 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "coding4climate | Arnav Nagpurkar",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body className="dark:bg-zinc-950 dark:text-white bg-zinc-200 text-black">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

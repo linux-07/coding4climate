@@ -36,7 +36,7 @@ const Navbar = () => {
             </button>
           </li>
           <li className='hover:font-semibold'><Link className="transition-all" href="/">Home</Link></li>
-          <li className='hover:font-semibold'><Link className="transition-all" href="/ProblemsAndSolutions">Problems & Solutions</Link></li>
+          <li className='hover:font-semibold'><Link className="transition-all" href="/landleague">Land League</Link></li>
           <li className='hover:font-semibold'><Link className="transition-all" href="/about">About</Link></li>
         </ul>
       </div>

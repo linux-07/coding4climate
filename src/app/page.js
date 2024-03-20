@@ -19,13 +19,15 @@ export default function Home() {
             <br />
             Together, let&apos;s make a greener, healthier world!
             <br />
+            I'll try to solve the problems that come under the "Land League"
+            <br />
             #coding4climate
           </p>
           <Link
-            href="/ProblemsAndSolutions"
+            href="/landleague"
             className="md:px-10 px-7 md:py-8 py-5 font-semibold text-xl border dark:border-white border-black my-12 dark:bg-zinc-900 bg-slate-200 rounded-full dark:hover:bg-zinc-800 hover:bg-slate-300 transition-all"
           >
-            Problems & Solutions
+            Land League
           </Link>
         </div>
       </div>

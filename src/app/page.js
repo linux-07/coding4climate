@@ -19,7 +19,7 @@ export default function Home() {
             <br />
             Together, let&apos;s make a greener, healthier world!
             <br />
-            I'll try to solve the problems that come under the "Land League"
+            I&apos;ll try to solve the problems that come under the &quot;Land League&quot;
             <br />
             #coding4climate
           </p>

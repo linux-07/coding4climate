@@ -17,8 +17,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav>
-      <div className="flex py-9 px-5 my-3 lg:w-3/4 mx-auto md:justify-between flex-col gap-5 md:flex-row justify-center items-center">
+    <nav className="dark:bg-zinc-900 bg-zinc-200">
+      <div className="flex py-9 px-5 lg:w-3/4 mx-auto md:justify-between flex-col gap-5 md:flex-row justify-center items-center">
         <div className="logo lg:text-3xl text-2xl font-bold">
           <Link href="/">coding4climate</Link>
         </div>
@@ -35,9 +35,9 @@ const Navbar = () => {
               />
             </button>
           </li>
-          <li className='hover:font-semibold'><Link className="transition-all" href="/">Home</Link></li>
-          <li className='hover:font-semibold'><Link className="transition-all" href="/landleague">Land League</Link></li>
-          <li className='hover:font-semibold'><Link className="transition-all" href="/about">About</Link></li>
+          <li className='hover:opacity-80 transition-all'><Link className="transition-all" href="/">Home</Link></li>
+          <li className='hover:opacity-80 transition-all'><Link className="transition-all" href="/landleague">Land League</Link></li>
+          <li className='hover:opacity-80 transition-all'><Link className="transition-all" href="/about">About</Link></li>
         </ul>
       </div>
     </nav>

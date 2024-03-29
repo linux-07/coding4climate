@@ -8,7 +8,7 @@ export default function Home() {
       <div className="container mx-1 md:mx-0">
         <div className="h-[85vh] w-[100vw] mx-auto flex justify-center items-center flex-col">
           <h1 className="text-4xl md:text-6xl text-center w-full font-bold">
-            Let's unite for a sustainable future
+            Let&apos;s unite for a sustainable future
           </h1>
           <p className="md:text-lg text-sm text-center w-full dark:text-zinc-300 text-zinc-800 mt-8 ">
             Welcome to our platform dedicated to addressing environmental challenges!
@@ -17,7 +17,7 @@ export default function Home() {
             <br />
             Explore curated problems and solutions below.
             <br />
-            Together, let's make a greener, healthier world!
+            Together, let&apos;s make a greener, healthier world!
             <br />
             Dive into solutions for climate change and sustainable land use practices through the Land League.
             <br />

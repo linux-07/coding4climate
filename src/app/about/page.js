@@ -2,7 +2,7 @@
 export default function About() {
 
   return (
-    <main className='md:max-w-[70vw] mx-auto'>
+    <main className='md:max-w-[80vw] mx-auto'>
       <div className=' my-12 mx-5'>
         About Page
       </div>

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <div className="container mx-1 md:mx-0">
-        <div className="h-[75vh] w-[100vw] mx-auto flex justify-center items-center flex-col">
+        <div className="h-[85vh] w-[100vw] mx-auto flex justify-center items-center flex-col">
           <h1 className="text-4xl md:text-6xl text-center w-full font-bold">
             Let's unite for a sustainable future
           </h1>

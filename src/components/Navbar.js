@@ -27,7 +27,7 @@ const Navbar = () => {
             <button onClick={toggleDarkMode}>
               <Image
                 className="mode-img"
-                src={"/assets/modeButton.svg"}
+                src={"/images/modeButton.svg"}
                 alt="mode-button"
                 width={25}
                 height={25}

@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# coding4climate
 
-## Getting Started
+This project comes under the **"Land League"** of coding4climate.
 
-First, run the development server:
+## Deployed on [https://coding4climate-arnav.vercel.app](https://coding4climate-arnav.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features of Website:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Fully Responsive
+- Fast Links (Due to next/link)
+- Dark and Light Mode features
+- Interactive
+- User-Friendly GUI
+- Slider technology used
+- Many More...
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Run on local machine
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### **Prerequisits**:
+- Latest Version of Node.js Installed
+- Git Installed
+- Any Code Editor of IDE (If you want to change the source code)
 
-## Learn More
+### Steps:-
+- Open Terminal (Powershell in windows)
+- Clone The Repository
+    ```bash
+    git clone https://github.com/linux-07/coding4climate.git
+    ```
+- Go in the project Directory:
+    ```bash
+    cd coding4climate
+    ```
+- Install the require packages:
+    ```bash
+    npm install
+    ```
+- Run the development server:
+    ```bash
+    yarn dev
+    ```
+- Go on [http://localhost:3000](http://localhost:3000) to preview it locally.
 
-To learn more about Next.js, take a look at the following resources:
+## Acknowledgements
+This Project is made by [arnavnagpurkar](https://github.com/arnavnagpurkar)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License:
+This Project comes under the MIT License.<br>
+Refer [LICENSE](LICENSE) file for more details.

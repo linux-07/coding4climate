@@ -5,8 +5,8 @@ export default function Home() {
 
   return (
     <main>
-      <div className="container mx-1 md:mx-0">
-        <div className="h-[85vh] w-[100vw] mx-auto flex justify-center items-center flex-col">
+      <div className="mx-1 md:mx-0">
+        <div className="h-[82vh] w-full mx-auto flex justify-center items-center flex-col">
           <h1 className="text-4xl md:text-6xl text-center w-full font-bold">
             Let&apos;s unite for a sustainable future
           </h1>
@@ -20,8 +20,6 @@ export default function Home() {
             Together, let&apos;s make a greener, healthier world!
             <br />
             Dive into solutions for climate change and sustainable land use practices through the Land League.
-            <br />
-            #coding4climate
           </p>
           <Link
             href="/landleague"

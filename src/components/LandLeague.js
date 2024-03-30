@@ -34,9 +34,23 @@ function LandLeague() {
           Topics Related to &apos;&apos;Land League&apos;&apos; -
         </h1>
         <h2 className="text-3xl font-semibold my-3">
-          Deforestation and Its Solutions:
+          Urbanization:
         </h2>
         <div className="flex flex-wrap">
+          <div className="w-full my-9 mb-12 flex 2xl:flex-row flex-col gap-20">
+            <Image
+              src={"/images/Industrialization.webp"}
+              width={690}
+              height={459}
+              className="rounded-xl"
+            />
+            <p className="text-lg flex items-center font-medium">
+              Urbanization is the process of population concentration in urban areas, leading to the growth and expansion of cities and towns. As rural populations migrate to urban centers in search of better economic opportunities and improved living standards, urbanization accelerates. While urbanization can bring benefits such as access to education, healthcare, and employment opportunities, it also poses significant challenges. Rapid urbanization often results in increased pressure on infrastructure, housing, transportation, and natural resources. It can lead to issues like overcrowding, inadequate sanitation, pollution, traffic congestion, and loss of green spaces. Sustainable urban planning and management are crucial to address these challenges and ensure that urban growth promotes equitable development, social inclusion, and environmental sustainability.
+            </p>
+          </div>
+          <h2 className="text-3xl font-semibold my-3">
+            Deforestation and Its Solutions:
+          </h2>
           <ul className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full mt-5">
             {/* Problem: Deforestation and CO2 Emissions */}
             <li className="flex flex-col gap-2">

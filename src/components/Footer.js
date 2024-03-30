@@ -4,9 +4,9 @@ import Link from "next/link"
 const Footer = () => {
   return (
     <footer className="w-full">
-      <div className="dark:bg-zinc-900 bg-slate-300 bg-opacity-75">
+      <div className="dark:bg-zinc-900 bg-zinc-200 bg-opacity-75">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="dark:text-slate-300 text-sm text-center sm:text-left">© Copyright 2024 &nbsp;&nbsp; coding4climate —
+          <p className="dark:text-slate-300 text-sm text-center sm:text-left md:mt-1">© Copyright 2024 &nbsp;&nbsp; coding4climate —
             <Link
               href="https://github.com/arnavnagpurkar"
               className="dark:text-slate-400 dark:hover:text-slate-300 text-slate-800 hover:text-slate-950 transition-all ml-1"

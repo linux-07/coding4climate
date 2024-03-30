@@ -5,11 +5,12 @@ const LandLeague = () => {
     <main className='md:max-w-[80vw] mx-auto min-h-[77vh]'>
       <div className='my-12 mx-5'>
         <h2 className="text-4xl font-semibold my-6">
-          Deforestation and It&apos;s Solutions:
+          Deforestation and Its Solutions:
         </h2>
         <div className="flex flex-wrap">
-          <ul className="flex gap-6 flex-wrap w-full mt-5">
-            <li className="flex flex-col gap-2 w-full md:w-96">
+          <ul className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full mt-5">
+            {/* Problem: Deforestation and CO2 Emissions */}
+            <li className="flex flex-col gap-2">
               <div className="prob-box border dark:border-white border-black p-5 rounded-xl hover:scale-105 transition-all">
                 <div className="flex justify-center items-center">
                   <Image
@@ -33,6 +34,151 @@ const LandLeague = () => {
                 </h3>
                 <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
                   Implementing reforestation and afforestation projects to absorb carbon dioxide and mitigate climate change effects.
+                </div>
+              </div>
+            </li>
+            {/* Problem: Loss of Biodiversity */}
+            <li className="flex flex-col gap-2">
+              <div className="prob-box border dark:border-white border-black p-5 rounded-xl hover:scale-105 transition-all">
+                <div className="flex justify-center items-center">
+                  <Image
+                    src={"/images/biodiversity.png"}
+                    height={45}
+                    width={45}
+                    alt="biodiversity"
+                    className="dark:invert invert-0"
+                  />
+                </div>
+                <h3 className="mt-4 text-2xl font-medium text-center">
+                  Loss of Biodiversity
+                </h3>
+                <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
+                  Deforestation leads to the loss of habitats for numerous species, resulting in decreased biodiversity.
+                </div>
+              </div>
+              {/* Solution: Conservation Measures */}
+              <div className="sol-box border dark:border-white border-black p-5 rounded-xl hover:scale-105 transition-all">
+                <h3 className="text-center text-xl font-medium">
+                  Solution
+                </h3>
+                <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
+                  Implementing conservation measures and protected areas to preserve biodiversity, habitats, and ecosystems.
+                </div>
+              </div>
+            </li>
+            {/* Problem: Soil Erosion */}
+            <li className="flex flex-col gap-2">
+              <div className="prob-box border dark:border-white border-black p-5 rounded-xl hover:scale-105 transition-all">
+                <div className="flex justify-center items-center">
+                  <Image
+                    src={"/images/soil-erosion.png"}
+                    height={45}
+                    width={45}
+                    alt="soil erosion"
+                    className="dark:invert invert-0"
+                  />
+                </div>
+                <h3 className="mt-4 text-2xl font-medium text-center">
+                  Soil Erosion
+                </h3>
+                <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
+                  Deforestation exposes soil to erosion by wind, leading to loss of fertile land & sedimentation in water bodies.
+                </div>
+              </div>
+              {/* Solution: Agroforestry */}
+              <div className="sol-box border dark:border-white border-black p-5 rounded-xl hover:scale-105 transition-all">
+                <h3 className="text-center text-xl font-medium">
+                  Solution
+                </h3>
+                <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
+                  Implementing agroforestry practices to protect soil, reduce erosion, and enhance agricultural productivity sustainably.
+                </div>
+              </div>
+            </li>
+            {/* Problem: Water Cycle Disruption */}
+            <li className="flex flex-col gap-2">
+              <div className="prob-box border dark:border-white border-black p-5 rounded-xl hover:scale-105 transition-all">
+                <div className="flex justify-center items-center">
+                  <Image
+                    src={"/images/water-cycle.png"}
+                    height={45}
+                    width={45}
+                    alt="water cycle"
+                    className="dark:invert invert-0"
+                  />
+                </div>
+                <h3 className="mt-4 text-2xl font-medium text-center">
+                  Water Cycle Disruption
+                </h3>
+                <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
+                  Deforestation disrupts the water cycle, leading to altered precipitation patterns and increased risk of floods and droughts.
+                </div>
+              </div>
+              {/* Solution: Reforestation near Water Sources */}
+              <div className="sol-box border dark:border-white border-black p-5 rounded-xl hover:scale-105 transition-all">
+                <h3 className="text-center text-xl font-medium">
+                  Solution
+                </h3>
+                <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
+                  Implementing reforestation near water sources to regulate water flow, mitigate flooding, and ensure sustainable water supply.
+                </div>
+              </div>
+            </li>
+            {/* Problem: Climate Regulation */}
+            <li className="flex flex-col gap-2">
+              <div className="prob-box border dark:border-white border-black p-5 rounded-xl hover:scale-105 transition-all">
+                <div className="flex justify-center items-center">
+                  <Image
+                    src={"/images/climate-regulation.png"}
+                    height={45}
+                    width={45}
+                    alt="climate regulation"
+                    className="dark:invert invert-0"
+                  />
+                </div>
+                <h3 className="mt-4 text-2xl font-medium text-center">
+                  Climate Regulation
+                </h3>
+                <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
+                  Deforestation disrupts regional and global climates by altering wind patterns and reducing the capacity to regulate temperature.
+                </div>
+              </div>
+              {/* Solution: Forest Conservation and Restoration */}
+              <div className="sol-box border dark:border-white border-black p-5 rounded-xl hover:scale-105 transition-all">
+                <h3 className="text-center text-xl font-medium">
+                  Solution
+                </h3>
+                <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
+                  Prioritizing forest conservation and restoration efforts to maintain climate stability, regulate temperatures, and mitigate extreme weather events.
+                </div>
+              </div>
+            </li>
+            {/* Problem: Air Pollution */}
+            <li className="flex flex-col gap-2">
+              <div className="prob-box border dark:border-white border-black p-5 rounded-xl hover:scale-105 transition-all">
+                <div className="flex justify-center items-center">
+                  <Image
+                    src={"/images/air-pollution.png"}
+                    height={45}
+                    width={45}
+                    alt="air pollution"
+                    className="dark:invert invert-0"
+                  />
+                </div>
+                <h3 className="mt-4 text-2xl font-medium text-center">
+                  Air Pollution
+                </h3>
+                <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
+                  Deforestation contributes to air pollution by reducing the number of trees available to absorb pollutants and release oxygen.
+                </div>
+              </div>
+              {/* Solution: Afforestation in Urban Areas */}
+              <div className="sol-box border dark:border-white border-black p-5 rounded-xl hover:scale-105 transition-all">
+                <h3 className="text-center text-xl font-medium">
+                  Solution
+                </h3>
+                <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
+                  Implementing afforestation projects in urban areas to improve air quality, enhance aesthetics, and promote human well-being.
                 </div>
               </div>
             </li>

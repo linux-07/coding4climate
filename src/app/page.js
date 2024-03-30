@@ -10,7 +10,7 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl text-center w-full font-bold">
             Let&apos;s unite for a sustainable future
           </h1>
-          <p className="md:text-lg text-sm text-center w-full dark:text-zinc-300 text-zinc-800 mt-8 ">
+          <p className="md:text-xl text-sm text-center w-full dark:text-zinc-300 text-zinc-800 mt-8 ">
             Welcome to our platform dedicated to addressing environmental challenges!
             <br />
             Discover innovative solutions to pressing issues threatening our planet.

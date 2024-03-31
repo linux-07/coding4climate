@@ -287,13 +287,13 @@ function LandLeague() {
         </h2>
         <div className="solutions relative p-14 border dark:border-white border-black rounded-3xl">
           <button
-            className="absolute top-1/2 left-5 transform -translate-y-1/2 bg-gray-700 text-white rounded-full h-9 w-9 flex items-center justify-center"
+            className="absolute top-1/2 left-5 transform -translate-y-1/2 bg-neutral-700 hover:bg-neutral-800 dark:bg-zinc-700 dark:hover:bg-zinc-800 transition-all text-white rounded-full h-9 w-9 flex items-center justify-center"
             onClick={prevSlide}
           >
             &lt;
           </button>
           <button
-            className="absolute top-1/2 right-5 transform -translate-y-1/2 bg-gray-700 text-white rounded-full h-9 w-9 flex items-center justify-center"
+            className="absolute top-1/2 right-5 transform -translate-y-1/2 bg-neutral-700 hover:bg-neutral-800 dark:bg-zinc-700 dark:hover:bg-zinc-800 transition-all text-white rounded-full h-9 w-9 flex items-center justify-center"
             onClick={nextSlide}
           >
             &gt;
@@ -302,7 +302,7 @@ function LandLeague() {
             {solutions.map((_, index) => (
               <button
                 key={index}
-                className={`h-3 w-3 bg-gray-500 dark:bg-slate-200 rounded-full mx-1 ${index === activeIndex && 'bg-gray-800 dark:bg-slate-500'}`}
+                className={`h-3 w-3 bg-zinc-400 hover:bg-zinc-600 dark:bg-slate-200 dark:hover:bg-slate-400 transition-all rounded-full mx-1 ${index === activeIndex && 'bg-zinc-800 dark:bg-slate-500'}`}
                 onClick={() => goToSlide(index)}
               ></button>
             ))}

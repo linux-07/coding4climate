@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function LandLeague() {
   const solutions = [
@@ -76,7 +77,16 @@ function LandLeague() {
                   Solution
                 </h3>
                 <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
-                  Implementing reforestation and afforestation projects to absorb carbon dioxide and mitigate climate change effects.
+                  <div>
+                    Implementing reforestation and afforestation projects to absorb carbon dioxide and mitigate climate change effects.
+                  </div>
+                  <Link
+                    href={"#"}
+                    target="_blank"
+                    className="text-blue-500 hover:text-blue-600 transition-all"
+                  >
+                    Learn More
+                  </Link>
                 </div>
               </div>
             </li>
@@ -105,7 +115,16 @@ function LandLeague() {
                   Solution
                 </h3>
                 <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
-                  Implementing conservation measures and protected areas to preserve biodiversity, habitats, and ecosystems.
+                  <div>
+                    Implementing conservation measures and protected areas to preserve biodiversity, habitats, and ecosystems.
+                  </div>
+                  <Link
+                    href={"#"}
+                    target="_blank"
+                    className="text-blue-500 hover:text-blue-600 transition-all"
+                  >
+                    Learn More
+                  </Link>
                 </div>
               </div>
             </li>
@@ -134,7 +153,16 @@ function LandLeague() {
                   Solution
                 </h3>
                 <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
-                  Implementing agroforestry practices to protect soil, reduce erosion, and enhance agricultural productivity sustainably.
+                  <div>
+                    Implementing agroforestry practices to protect soil, reduce erosion, and enhance agricultural productivity sustainably.
+                  </div>
+                  <Link
+                    href={"#"}
+                    target="_blank"
+                    className="text-blue-500 hover:text-blue-600 transition-all"
+                  >
+                    Learn More
+                  </Link>
                 </div>
               </div>
             </li>
@@ -163,7 +191,16 @@ function LandLeague() {
                   Solution
                 </h3>
                 <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
-                  Implementing reforestation near water sources to regulate water flow, mitigate flooding, and ensure sustainable water supply.
+                  <div>
+                    Implementing reforestation near water sources to regulate water flow, mitigate flooding, and ensure sustainable water supply.
+                  </div>
+                  <Link
+                    href={"#"}
+                    target="_blank"
+                    className="text-blue-500 hover:text-blue-600 transition-all"
+                  >
+                    Learn More
+                  </Link>
                 </div>
               </div>
             </li>
@@ -192,7 +229,16 @@ function LandLeague() {
                   Solution
                 </h3>
                 <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
-                  Prioritizing forest conservation and restoration efforts to maintain climate stability, regulate temperatures, and mitigate extreme weather events.
+                  <div>
+                    Prioritizing forest conservation and restoration efforts to maintain climate stability, regulate temperatures, and mitigate extreme weather events.
+                  </div>
+                  <Link
+                    href={"#"}
+                    target="_blank"
+                    className="text-blue-500 hover:text-blue-600 transition-all"
+                  >
+                    Learn More
+                  </Link>
                 </div>
               </div>
             </li>
@@ -221,7 +267,16 @@ function LandLeague() {
                   Solution
                 </h3>
                 <div className="text-center mt-2 text-[0.95rem] dark:text-zinc-300 text-zinc-700">
-                  Implementing afforestation projects in urban areas to improve air quality, enhance aesthetics, and promote human well-being.
+                  <div>
+                    Implementing afforestation projects in urban areas to improve air quality, enhance aesthetics, and promote human well-being.
+                  </div>
+                  <Link
+                    href={"#"}
+                    target="_blank"
+                    className="text-blue-500 hover:text-blue-600 transition-all"
+                  >
+                    Learn More
+                  </Link>
                 </div>
               </div>
             </li>

@@ -1,15 +1,36 @@
 "use client"
+import { useRef, useEffect } from "react";
 import Link from "next/link";
+import Typed from "typed.js";
 
 export default function Home() {
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(ref.current, {
+      strings: [
+        'Let&apos;s unite for a sustainable future',
+        'Protect our forests, stop deforestation!',
+        'Reduce land pollution, preserve our planet!',
+        'Combat urbanization, prioritize sustainable development!',
+        'Together, let&apos;s safeguard our land and environment!'
+      ],
+      typeSpeed: 50,
+      loop: true
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
   return (
     <main>
       <div className="mx-1 md:mx-0">
         <div className="h-[82vh] w-full mx-auto flex justify-center items-center flex-col">
-          <h1 className="text-4xl md:text-6xl text-center w-full font-bold">
-            Let&apos;s unite for a sustainable future
-          </h1>
+          <div className="flex md:text-6xl text-4xl">
+            <h1 ref={ref} className="text-4xl md:text-6xl text-center w-full font-bold" />
+          </div>
           <p className="md:text-xl text-sm text-center w-full dark:text-zinc-300 text-zinc-800 mt-8 ">
             Welcome to our platform dedicated to addressing environmental challenges!
             <br />

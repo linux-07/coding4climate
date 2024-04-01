@@ -14,6 +14,14 @@ function LandLeague() {
     "Educating the public about the importance of responsible consumption and waste reduction, and encouraging behavior change through awareness campaigns and incentives.",
   ];
 
+  // Dynamically generating array using loop
+  const solutionImages = [];
+
+  for (let i = 0; i < solutions.length; i++) {
+    const fileName = `/images/landPollution/solution${i + 1}.jpg`;
+    solutionImages.push(fileName);
+  }  
+
   const [activeIndex, setActiveIndex] = useState(0);
 
   const nextSlide = () => {
@@ -81,7 +89,7 @@ function LandLeague() {
                     Implementing reforestation and afforestation projects to absorb carbon dioxide and mitigate climate change effects.
                   </div>
                   <Link
-                    href={"#"}
+                    href={"https://news.mongabay.com/2018/10/tropical-deforestation-now-emits-more-co2-than-the-eu/"}
                     target="_blank"
                     className="text-blue-500 hover:text-blue-600 transition-all"
                   >
@@ -119,7 +127,7 @@ function LandLeague() {
                     Implementing conservation measures and protected areas to preserve biodiversity, habitats, and ecosystems.
                   </div>
                   <Link
-                    href={"#"}
+                    href={"https://royalsociety.org/news-resources/projects/biodiversity/deforestation-and-biodiversity/"}
                     target="_blank"
                     className="text-blue-500 hover:text-blue-600 transition-all"
                   >
@@ -157,7 +165,7 @@ function LandLeague() {
                     Implementing agroforestry practices to protect soil, reduce erosion, and enhance agricultural productivity sustainably.
                   </div>
                   <Link
-                    href={"#"}
+                    href={"https://en.wikipedia.org/wiki/Agroforestry"}
                     target="_blank"
                     className="text-blue-500 hover:text-blue-600 transition-all"
                   >
@@ -195,7 +203,7 @@ function LandLeague() {
                     Implementing reforestation near water sources to regulate water flow, mitigate flooding, and ensure sustainable water supply.
                   </div>
                   <Link
-                    href={"#"}
+                    href={"https://e360.yale.edu/features/how-deforestation-affecting-global-water-cycles-climate-change"}
                     target="_blank"
                     className="text-blue-500 hover:text-blue-600 transition-all"
                   >
@@ -233,7 +241,7 @@ function LandLeague() {
                     Prioritizing forest conservation and restoration efforts to maintain climate stability, regulate temperatures, and mitigate extreme weather events.
                   </div>
                   <Link
-                    href={"#"}
+                    href={"https://www.climatecouncil.org.au/deforestation/"}
                     target="_blank"
                     className="text-blue-500 hover:text-blue-600 transition-all"
                   >
@@ -271,7 +279,7 @@ function LandLeague() {
                     Implementing afforestation projects in urban areas to improve air quality, enhance aesthetics, and promote human well-being.
                   </div>
                   <Link
-                    href={"#"}
+                    href={"https://sciencing.com/deforestation-affect-air-10632.html"}
                     target="_blank"
                     className="text-blue-500 hover:text-blue-600 transition-all"
                   >
@@ -286,6 +294,13 @@ function LandLeague() {
           Land Pollution Solutions:
         </h2>
         <div className="solutions relative p-14 border dark:border-white border-black rounded-3xl">
+          <Image
+            src={solutionImages[activeIndex]}
+            width={500}
+            height={500}
+            className="rounded-xl mx-auto mb-7"
+            alt="land pollution"
+          />
           <button
             className="absolute top-1/2 left-5 transform -translate-y-1/2 bg-neutral-700 hover:bg-neutral-800 dark:bg-zinc-700 dark:hover:bg-zinc-800 transition-all text-white rounded-full h-9 w-9 flex items-center justify-center"
             onClick={prevSlide}
